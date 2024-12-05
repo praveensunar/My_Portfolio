@@ -3,11 +3,12 @@
  padding: 0;
  box-sizing: border-box;
  font-family: 'poppins', sans-serif;
- overflow: hidden;
+ /* overflow: hidden; */
 
 }
 body{
     color: #ededed;
+    background: black;
 }
 .header{
     position: fixed;
@@ -15,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +41,8 @@ body{
     margin-left: 35px;
     transition: .3s;
     opacity: 0;
-    animation: slidetop .8s ease forwards;
+    animation: slidetop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
 }
 .navbar a:hover{
     color:#0ef ;
@@ -51,7 +53,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(background.jpg) no-repeat;
+    /* background: url(background.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -74,6 +76,7 @@ body{
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
+    font-family: cursive;
     animation:slideRight 1s ease forwards;
     animation-delay: 1s;
 }
@@ -85,20 +88,21 @@ body{
     transition: 1s;
     opacity: 0;
     animation: slidetop 1s ease forwards;
-    animation-delay: .5s;
+    animation-delay: 2s;
 }
 .image img:hover{
     border: rgba(0, 238, 255, 0.544) 20px solid;
     border-style:groove;
     transition: border.3s ease-in-out;
     transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 242, 0.377);
 }
 .home-content p{
-    font-size: 18px;
+    font-size: 16px;
     opacity: 0;
     animation:slideLeft 1s ease forwards;
     animation-delay: 1s;
-
+    
 }
 .home-sci a{
     display: inline-flex;
@@ -139,13 +143,13 @@ body{
    color: white; 
    font-size: 16px;
     letter-spacing: 1px;          
-   /* text-shadow: 0 0 20px #04c078b8; */
+   box-shadow: 0 0 20px #04c078b5;
    border-radius: 40px;
    display: inline-block;
    text-decoration: none;
    opacity: 0;
-    animation:slideLeft 1s ease forwards;
-    animation-delay: 1s;
+    animation:slidetop 1s ease forwards;
+    animation-delay: 2s;
  }
 
  .btn-box:hover {
@@ -153,6 +157,91 @@ body{
    color: #fff;
    text-decoration: none;
  }
+.about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+    gap: 1.5rem;
+   
+}
+.about-image{
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    padding: 10% 0 0 10%;
+    border-radius: 8px;
+}
+ .about-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: rgba(0, 238, 255, 0.544) 3px solid;
+    transition: 1s;
+    }
+.about-text h2{
+    font-size: 60px;
+    }
+.about-text h2 span{
+   color:#a8f1e1; 
+    }
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #fff;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    
+}
+.container{
+    padding: 90px;   
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+#services{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title span{
+    color:#a8f1e1; 
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top:50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s,transfrom 0.5s;
+    box-shadow:1px 1px 20px #051129,1px 1px 40px #051129 ;
+    
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.services-list div h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
 @keyframes slideRight{
     0%{
         opacity: 0;
