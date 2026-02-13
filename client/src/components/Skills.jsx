@@ -9,18 +9,18 @@ const Skills = () => {
         { name: 'React', icon: 'bxl-react', color: '#471da0', percentage: 80 },
         { name: 'Node.js', icon: 'bxl-nodejs', color: '#6cc24a', percentage: 75 },
         { name: 'Express.js', icon: 'bx-server', color: '#ffffff', percentage: 70 },
-        { name: 'MongoDB', icon: 'bxl-mongodb', color: '#4db33d', percentage: 75 },
+        { name: 'MongoDB', icon: 'bxl-mongodb', color: '#4db33d', percentage: 60 },
         { name: 'Tailwind CSS', icon: 'bxl-tailwind-css', color: '#38bdf8', percentage: 90 },
         { name: 'Redux', icon: 'bxl-redux', color: '#764abc', percentage: 70 },
         { name: 'OOPs', icon: 'bx-code-alt', color: '#e0e0e0', percentage: 85 },
         { name: 'Git', icon: 'bxl-git', color: '#f05032', percentage: 80 },
-        { name: 'Java', icon: 'bxl-java', color: '#f12e2e', percentage: 80 },
-        { name: 'Python', icon: 'bxl-python', color: '#6ae258', percentage: 70 },
+        { name: 'Java', icon: 'bxl-java', color: '#f12e2e', percentage: 70 },
+        { name: 'Python', icon: 'bxl-python', color: '#6ae258', percentage: 50 },
     ];
 
     const professionalSkills = [
         { name: 'Creativity', percentage: 90 },
-        { name: 'Communication', percentage: 80 },
+        { name: 'Self Learning', percentage: 80 },
         { name: 'Problem Solving', percentage: 70 },
         { name: 'TeamWork', percentage: 95 },
     ];

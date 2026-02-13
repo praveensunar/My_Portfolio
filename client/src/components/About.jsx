@@ -23,7 +23,7 @@ const About = () => {
                 <p className="mb-6 leading-relaxed text-text/80">
                     I'm Praveen Vishwakarma, a software developer with a Master's in Computer Applications from the Community Institute of Management Studies, Bengaluru, and a Bachelor's in Computer Applications from Sharnbasva University, Kalaburagi. I specialize in web development with expertise in JavaScript, React.js, and modern technologies.
                     <br /><br />
-                    With hands-on experience from multiple internships, I've built projects like Quiz Master, Weather Tracker, and Gold Price Tracker, showcasing my technical skills and creativity. Certified in key technologies like HTML, CSS, Python, Java and MySQL, I focus on delivering scalable and impactful solutions. Explore my portfolio to see my work in action!
+                    With hands-on experience from multiple internships, I've built projects like Quiz Master, Weather Tracker, and Gold Loan Management System, showcasing my technical skills and creativity. Certified in key technologies like HTML, CSS, Python, Java and MySQL, I focus on delivering scalable and impactful solutions. Explore my portfolio to see my work in action!
                 </p>
                 <a href="#" className="inline-block px-8 py-3 bg-accent text-slate-900 font-bold rounded-full hover:shadow-[0_0_20px_#0ef] transition-shadow duration-300">Read More</a>
             </div>

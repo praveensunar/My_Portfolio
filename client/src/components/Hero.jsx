@@ -8,10 +8,10 @@ const Hero = () => {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Frontend Developer', 'Web Designer', 'YouTuber'],
+            strings: ['Frontend Developer','Web Developer', 'React Developer'],
             typeSpeed: 100,
             backSpeed: 100,
-            backDelay: 1000,
+            backDelay: 500,
             loop: true
         });
 
