@@ -62,7 +62,7 @@ const Portfolio = () => {
                             </div>
                         )}
 
-                        <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-center p-4 transform translate-y-full group-hover:translate-y-0 duration-500">
+                        <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/70 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-center p-4 transform translate-y-0 md:translate-y-full md:group-hover:translate-y-0 duration-500">
                             <h4 className="text-2xl font-bold mb-2 text-text">{project.title}</h4>
                             <p className="text-sm text-text/80 mb-4">{project.desc}</p>
                             <a href={project.link} target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-text rounded-full flex items-center justify-center hover:bg-accent transition-colors">
