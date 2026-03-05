@@ -37,7 +37,7 @@ const Portfolio = () => {
             title: 'Blinkit Clone',
             desc: 'E-commerce quick-commerce clone. Features product listing, cart, and order management.',
             img: demo1, // Using Demo 1 GIF as the project preview
-            link: 'https://github.com/praveensunar/BinkeyIt'
+            link: 'https://binkeyit-clone.netlify.app/'
         }
     ];
 
