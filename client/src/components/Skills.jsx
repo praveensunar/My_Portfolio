@@ -83,6 +83,36 @@ const Skills = () => {
                             </div>
                         ))}
                     </div>
+
+                    {/* AI & Vibe Coding Tools */}
+                    <div className="mt-12">
+                        <h3 className="text-2xl font-bold mb-6 text-center md:text-left text-text">AI Tools & Vibe Coding</h3>
+                        <p className="text-text/75 text-sm mb-6 leading-relaxed text-center md:text-left">
+                            Leveraging state-of-the-art LLMs and agentic coding workflows to accelerate full-stack prototyping, automate testing scripts, and optimize code generation.
+                        </p>
+                        <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+                            {[
+                                { name: 'Claude', icon: 'bx-brain', color: '#d97706' },
+                                { name: 'Gemini', icon: 'bx-star', color: '#4f46e5' },
+                                { name: 'Antigravity', icon: 'bx-rocket', color: '#06b6d4' },
+                                { name: 'DeepSeek', icon: 'bx-search', color: '#3b82f6' },
+                                { name: 'ChatGPT', icon: 'bx-chat', color: '#10b981' }
+                            ].map((tool, index) => (
+                                <motion.span
+                                    key={index}
+                                    className="flex items-center gap-2 px-4 py-2.5 bg-secondary border border-gray-200 dark:border-gray-800 text-sm font-semibold text-text rounded-2xl shadow-sm hover:shadow-[0_0_15px_rgba(56,189,248,0.2)] hover:border-accent/40 transition-all duration-300 cursor-default"
+                                    whileHover={{ scale: 1.05 }}
+                                    initial={{ opacity: 0, y: 10 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ duration: 0.3, delay: index * 0.1 }}
+                                >
+                                    <i className={`bx ${tool.icon} text-lg`} style={{ color: tool.color }}></i>
+                                    {tool.name}
+                                </motion.span>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

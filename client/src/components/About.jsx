@@ -19,11 +19,11 @@ const About = () => {
 
             <div className="flex-1 text-center md:text-left">
                 <h2 className="text-4xl font-bold mb-4 text-text">About <span className="text-accent">Me</span></h2>
-                <h4 className="text-xl font-bold mb-4 text-text">Front-end Developer</h4>
+                <h4 className="text-xl font-bold mb-4 text-text">Full Stack Developer</h4>
                 <p className="mb-6 leading-relaxed text-text/80">
-                    I'm Praveen Vishwakarma, a software developer with a Master's in Computer Applications from the Community Institute of Management Studies, Bengaluru, and a Bachelor's in Computer Applications from Sharnbasva University, Kalaburagi. I specialize in web development with expertise in JavaScript, React.js, and modern technologies.
+                    I'm Praveen Vishwakarma, a dynamic Full Stack Developer with a Master's in Computer Applications (MCA) from the Community Institute of Management Studies, Bengaluru, and a Bachelor's in Computer Applications (BCA) from Sharnbasva University, Kalaburagi. I specialize in building robust enterprise web applications, leveraging modern frontend frameworks like React and powerful backend architectures like NestJS and Node.js.
                     <br /><br />
-                    With hands-on experience from multiple internships, I've built projects like Quiz Master, Weather Tracker, and Gold Loan Management System, showcasing my technical skills and creativity. Certified in key technologies like HTML, CSS, Python, Java and MySQL, I focus on delivering scalable and impactful solutions. Explore my portfolio to see my work in action!
+                    Through professional hands-on experience and internships, I have engineered scalable projects like the School Management System, Quiz Master, and Gold Loan Management System. I am adept at designing relational databases (PostgreSQL, MySQL), writing automated test suites (Selenium, Python), and collaborating in Agile teams to deliver high-performance, responsive software solutions.
                 </p>
                 <a href="#" className="inline-block px-8 py-3 bg-accent text-slate-900 font-bold rounded-full hover:shadow-[0_0_20px_#0ef] transition-shadow duration-300">Read More</a>
             </div>

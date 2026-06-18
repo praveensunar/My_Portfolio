@@ -4,7 +4,8 @@ import talkImg from '../assets/talk.png';
 import weatherImg from '../assets/weather.png';
 import goldImg from '../assets/gold-loan.png';
 import demo1 from '../assets/demo-1.gif';
-import demo2 from '../assets/demo-2.gif'; // Imported for future use or if we want to toggle
+import demo2 from '../assets/demo-2.gif';
+import goldMobileImg from '../assets/gold-loan-mobile-icon.png';
 import { motion } from 'framer-motion';
 
 const Portfolio = () => {
@@ -32,6 +33,12 @@ const Portfolio = () => {
             desc: 'Web platform for gold loan management, interest calculation, and customer records.',
             img: goldImg,
             link: 'https://omsaigoldloan.netlify.app/'
+        },
+        {
+            title: 'Gold Loan Mobile App',
+            desc: 'Cross-platform mobile application built with React Native, Expo, and NativeWind. Features interest calculation, customer records management, analytics dashboards, and support ticket system.',
+            img: goldMobileImg,
+            link: 'https://github.com/praveensunar/OmSai-GoldLoan.git'
         },
         {
             title: 'Blinkit Clone',

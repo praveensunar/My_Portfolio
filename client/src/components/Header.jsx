@@ -24,7 +24,7 @@ const Header = () => {
 
             {/* Desktop Navbar */}
             <nav className="hidden md:flex items-center gap-8">
-                {['Home', 'About', 'Skills', 'Portfolio', 'Contact'].map((item) => (
+                {['Home', 'About', 'Skills', 'Experience', 'Portfolio', 'Contact'].map((item) => (
                     <Link
                         key={item}
                         to={item.toLowerCase()}
@@ -68,7 +68,7 @@ const Header = () => {
             {/* Mobile Navbar */}
             {menuOpen && (
                 <nav className="absolute top-full left-0 w-full bg-primary/95 backdrop-blur-md border-b border-white/10 p-5 flex flex-col gap-4 md:hidden shadow-lg animate-slideIn">
-                    {['Home', 'About', 'Skills', 'Portfolio', 'Contact'].map((item) => (
+                    {['Home', 'About', 'Skills', 'Experience', 'Portfolio', 'Contact'].map((item) => (
                         <Link
                             key={item}
                             to={item.toLowerCase()}
